@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from 'react-router-dom';
+import { Header, Main, Footer } from './components'
+import Video from "./assets/vinyl_-_spin.mp4"
+import { useState } from 'react';
 
+import './App.css';
 function App() {
+  const [page, setPage] = useState("home");
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <video className="video-background" src={Video} playsInline autoPlay loop muted></video>
+      <Header/>
+      <Routes>
+        <Route path="/" element={<Main page={page} setPage={setPage}/>}/>
+      </Routes>
+      <Footer/>
     </div>
   );
 }
