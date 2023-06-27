@@ -3,6 +3,12 @@ a{
   color: rgba(13, 13, 13, 0.9)
 }
 
+
+.the-page{
+  height: 100vh;
+  background-image: url('assets/background.png');
+}
+
 .hidden {
   display: none;
 }
@@ -41,8 +47,9 @@ h1, h2, h3, h4, h5, h6{
 
 header{
   text-align: center;
-  background-color: rgba(255,255,255,.4);
+  background-color: #272727;
   text-shadow: .1px .1px .1px white;
+  color: white;
 }
 
 main img{
@@ -50,7 +57,7 @@ main img{
 }
 
 footer{
-  background-color: #f8f9fa;
+  background-color: #272727;
   text-align: center;
   padding: 10px;
   position: absolute;
@@ -59,7 +66,7 @@ footer{
 }
 
 footer a{
-  color: black;
+  color: white;
 }
 
 .text-form textarea{
@@ -233,7 +240,7 @@ textarea:focus {
 /* Media query for mobile devices */
 @media only screen and (max-width: 767px) {
   footer {
-    background-color: #f8f9fa;
+    background-color: #272727;
     text-align: center;
     padding: 10px;
     position: absolute;
@@ -261,14 +268,6 @@ textarea:focus {
 
   .col-3{ 
     display: hidden !important;
-  }
-
-  header{
-    background-color: rgba(255,255,255,.8);
-  }
-
-  footer{
-    background-color: rgba(255,255,255,.8);
   }
 
   .box{

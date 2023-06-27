@@ -8,8 +8,8 @@ function App() {
   const [page, setPage] = useState("home");
 
   return (
-    <div>
-      <video className="video-background" src={Video} playsInline autoPlay loop muted></video>
+    <div class="the-page">
+      {/* <video className="video-background" src={Video} playsInline autoPlay loop muted></video> */}
       <Header/>
       <Routes>
         <Route path="/" element={<Main page={page} setPage={setPage}/>}/>
