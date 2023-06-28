@@ -15,9 +15,9 @@ export default function Main({ page, setPage } ) {
             <Menu setPage={setPage} />
           </aside>
         </div>
-        <div className="col-12 col-lg-6">
+        <div className="d-flex justify-content-center col-12 col-lg-6">
           <main>
-            <Display page={page} moveOver={moveOver} setMoveOver={setMoveOver}/>
+            <div className="main-window"><Display page={page} moveOver={moveOver} setMoveOver={setMoveOver}/></div>
           </main>
         </div>
       </div>

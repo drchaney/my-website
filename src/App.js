@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import { Header, Main, Footer } from './components'
-import Video from "./assets/vinyl_-_spin.mp4"
+// import Video from "./assets/vinyl_-_spin.mp4"
 import { useState } from 'react';
 
 import './App.css';

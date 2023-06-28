@@ -8,8 +8,17 @@ export default function Projects(){
   return(
     <>
       <h1>Projects</h1>
-      <hr/>
-      <div className="my-3 container text-center">
+
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed focus-ring focus-ring-warning" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+            JavaScript Projects
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+            <div className="my-3 container text-center">
         <img className="project-image" src={spoonbrain} alt="spoonbrain screenshot"/>
       </div>
       <table className="table table-sm">
@@ -52,8 +61,18 @@ export default function Projects(){
           <td><p>I had recently read an article on mobile-first development, so even though the project didn't call for mobile phone usability, I still developed this primarily for my phone. I also ready many articles on CSS animation because it wasn't taught in class and I felt that could make the game go from good to great.  In addition to the animation, I was proud of the AI logic, and the massive object and object methods I created to keep the game moving forward.  My only pain was trying to animate a checker "falling", but it always clipped the game board, so I settled on a spinning animation to place the checkers.</p></td>
         </tr>
       </table>
-      <hr/>
-      <div className="my-3 container text-center">
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed focus-ring focus-ring-warning" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Frontend & React
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+            <div className="my-3 container text-center">
         <img className="project-image" src={ppp} alt="peculiar peoples possessions screenshot"/>
       </div>
       <table className="table table-sm">
@@ -96,8 +115,18 @@ export default function Projects(){
           <td><p>This project was my first time working in github, rotating Scrum Master duties, creating tickets, submitting pull requests, and communicating daily in virtual stand-ups with a team!</p></td>
         </tr>
       </table>
-      <hr/>
-      <div className="my-3 container text-center">
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed focus-ring focus-ring-warning" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Backend & APIs
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+            <div className="my-3 container text-center">
       <video className="project-image project-video" src={Video} playsInline autoPlay loop muted></video>
       </div>
       <table className="table table-sm">
@@ -118,6 +147,10 @@ export default function Projects(){
           <td><p>This final project was a ton of fun, from creating user stories, wireframes, database diagrams, to execution.  I enjoyed adding "extras", like more than one image per product, the ability to edit your cart by mousing over it, having stories, articles, promo codes, and sales campaigns managed through an admin portal.  I exceeded the course requirements, but didn't finish all the user stories I created in the four weeks we had to work on this.  Nonetheless, I learned a ton from the many, many hours I poured into this project.</p></td>
         </tr>
       </table>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   )
 }

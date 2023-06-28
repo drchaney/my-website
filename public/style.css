@@ -5,3 +5,7 @@ body{
   overflow: hidden;
   font-family: 'Quicksand', sans-serif;
 }
+
+*{
+  transition: all .3s ease-in-out;
+}

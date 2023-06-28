@@ -27,6 +27,11 @@ export default function Menu( {setPage }){
         <p>A full stack developer based in Tulsa with a celebrated record of making good things great</p>
         <hr/>
       </div>
+      <div id="projects" className="box"  onClick={handleClickProjects}>
+        <h2>Projects</h2>
+        <p>Curated examples of my work</p>
+        <hr/>
+      </div>
       <div id="tools" className="box"  onClick={handleClickTools}>
         <h2>Tools</h2>
         <p>Stacks, languages, and libraries I maintain in my tool belt</p>
@@ -35,11 +40,6 @@ export default function Menu( {setPage }){
       <div id="resume" className="box"  onClick={handleClickResume}>
         <h2>Resume</h2>
         <p>David Chaney, Software Engineer, People-Leader</p>
-        <hr/>
-      </div>
-      <div id="projects" className="box"  onClick={handleClickProjects}>
-        <h2>Projects</h2>
-        <p>Portfolio of work</p>
         <hr/>
       </div>
       <div id="contact" className="box"  onClick={handleClickContact}>
