@@ -348,7 +348,6 @@ textarea:focus {
   background-color: lightsalmon;
 }
 
-/* Optional: Override Bootstrap's default accordion styles */
 .accordion-button:not(.collapsed) {
   color: #fff; /* Change the color when the accordion is open */
   background-color: #F45839;
