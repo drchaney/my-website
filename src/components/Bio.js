@@ -12,13 +12,12 @@ export default function Bio(){
       <div className="text-center"><img src={david} alt="david"/></div>
       <p>Hi, I'm David, an experienced people leader, process manager, and software developer based in Tulsa, OK.</p>
       <p>And I'm good at it!  I've managed multi-million dollar projects, lead large teams, and achieved celebrated results!</p>
-      <p>Most of my leadership experience is in telecommunications & supply chain, and my technical experience is in networks, RF, and coding.</p>
-      <p>I also worked a few years of residential and commercial construction when I was in college.</p>
+      <p>As a software developer, most of my experience is in React, PostgreSQL, Express, and Node.</p>
       <figure className="figure">
         <img src={strengths} alt="strengths" className="figure-img img-fluid rounded"/>
         <figcaption className="figure-caption text-end">StrengthFinder Strengths</figcaption>
       </figure>
-      <p>With strengths like these, it's easy to see that I enjoy reading, repairing, and building.  Throughout my career, I've frequently asked peers and direct reports to find their strengths and explore their personalities.  To this end, I've always been on high-performing teams because we always know and respect the talents and abilities of one another.</p>
+      <p>Throughout my career, I've frequently asked peers to find their strengths and identify their professional personalities.  To this end, I've always been on high-performing teams because we always know and respect the talents and abilities of one another.</p>
       <p>My strengths, combined with my experience, has given me an exceptional talent for fixing what's broke and making good things great. And I enjoy it, too!</p>
       <figure className="figure">
         <img src={fixing} alt="Fixing" className="figure-img img-fluid rounded"/>
